@@ -1,8 +1,8 @@
-package com.violand.commons.lock;
+package com.violand.commons.lock.jdbc;
 
-import com.violand.commons.lock.JdbcDistributedLockProvider;
-import junit.framework.TestCase;
 import com.violand.commons.lock.DistributedLock;
+import com.violand.commons.lock.jdbc.JdbcDistributedLockProvider;
+import junit.framework.TestCase;
 
 import java.sql.DriverManager;
 import java.util.Arrays;

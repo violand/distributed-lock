@@ -1,4 +1,4 @@
-package com.violand.commons.lock;
+package com.violand.commons.lock.jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;

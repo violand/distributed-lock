@@ -1,4 +1,7 @@
-package com.violand.commons.lock;
+package com.violand.commons.lock.jdbc;
+
+import com.violand.commons.lock.DistributedLock;
+import com.violand.commons.lock.DistributedLockProvider;
 
 import javax.sql.DataSource;
 

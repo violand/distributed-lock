@@ -1,7 +1,9 @@
-package com.violand.commons.lock;
+package com.violand.commons.lock.jdbc;
 
 import com.google.common.base.Preconditions;
 import com.google.common.base.Throwables;
+import com.violand.commons.lock.DistributedLock;
+import com.violand.commons.lock.WatchDog;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.violand.commons.lock.exception.CanNotRenewException;
